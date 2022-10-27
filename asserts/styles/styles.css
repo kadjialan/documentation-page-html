@@ -1,0 +1,82 @@
+#navbar {
+    display: inline-grid;
+    color: black;
+    border-right: 2px solid black;
+    height: 100%;
+    position: fixed;
+    grid-area: unset;
+}
+
+#navbar p{
+    border-top: 1px solid black;
+    padding-left: 1rem;
+    font-size: large;
+    padding-top: 10px;
+}
+
+.comments{
+    background-color: bisque;
+    padding-left: 7px;
+    margin-left: 20px;
+}
+
+#introduction {
+    padding-left: 17%;
+}
+
+
+#whatyoushouldalreadyknow {
+    padding-left: 17%;
+}
+
+#javascipt {
+    padding-left: 17%;  
+}
+
+#helloworld {
+    padding-left: 17%;   
+}
+
+#variables {
+    padding-left: 17%;   
+}
+
+#declaringvariables{
+    padding-left: 17%;
+}
+
+#variablescope {
+    padding-left: 17%; 
+}
+
+#globalvariables {
+    padding-left: 17%;    
+}
+
+#constant{
+  padding-left: 17%;
+}
+
+#datatypes {
+    padding-left: 17%; 
+}
+
+#ifelsestatement {
+    padding-left: 17%;
+}
+
+#constant{
+    padding-left: 17%;   
+}
+
+#whilestatement {
+    padding-left: 17%;  
+}
+
+#functiondeclaration {
+    padding-left: 17%;   
+}
+
+#reference{
+    padding-left: 17%;  
+}
