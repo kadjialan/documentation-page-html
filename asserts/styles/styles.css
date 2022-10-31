@@ -17,12 +17,14 @@
     border-top: 1px solid black;
     font-size: auto;
     padding-bottom: 0;
-}#main{
+}
+
+#main {
     padding-left: 15rem;
     font-size: medium;
 }
 
-.comments{
+.comments {
     background-color: bisque;
     padding-left: 7px;
     margin-left: 20px;
