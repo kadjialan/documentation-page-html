@@ -10,24 +10,24 @@
 <body>
     <nav id="navbar">
         <h1><b>JS DOCUMENTATION</b></h1>
-        <P><a href="introduction">Introduction</a></P>
-        <p><a href=".whatyoushouldalreadyknow">What you should already know</a></p>
-        <p><a href=".javascipt">Java script and java</a></p>
-        <p><a href=".helloworld">Hello world</a></p>
-        <p><a href=".variables">Variables</a></p>
-        <p><a href=".declaringvariables">Declaring Variables</a></p>
-        <p><a href=".variablescope">variable Scope</a></p>
-        <p><a href=".globalvariables">Global Variables</a></p>
-        <p><a href=".constant">Constant</a></p>
-        <p><a href=".datatypes">Data types</a></p>
-        <p><a href=".ifelsestatement" >if...else statement</a></p>
-        <p><a href=".whilestatement">while statement</a></p>
-        <p><a href=".functiondeclaration">Function declarations</a></p>
-        <p><a href=".reference">Reference</a></p>
+        <P><a href="#introduction">Introduction</a></P>
+        <p><a href="#whatyoushouldalreadyknow">What you should already know</a></p>
+        <p><a href="#javascipt">Java script and java</a></p>
+        <p><a href="#helloworld">Hello world</a></p>
+        <p><a href="#variables">Variables</a></p>
+        <p><a href="#declaringvariables">Declaring Variables</a></p>
+        <p><a href="#variablescope">variable Scope</a></p>
+        <p><a href="#globalvariables">Global Variables</a></p>
+        <p><a href="#constant">Constant</a></p>
+        <p><a href="#datatypes">Data types</a></p>
+        <p><a href="#ifelsestatement" >if...else statement</a></p>
+        <p><a href="#whilestatement">while statement</a></p>
+        <p><a href="#functiondeclaration">Function declarations</a></p>
+        <p><a href="#reference">Reference</a></p>
  </nav>
 
 <section id="main">
- <div class="introduction">
+ <div id="introduction">
     <h1>Introduction</h1>
  <p>JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.</p>
   <br>
@@ -42,7 +42,7 @@
 <br>
 </div>
 
-<div class="whatyoushouldalreadyknow">
+<div id="whatyoushouldalreadyknow">
 <h1>What you should already know</h1>
 <p>This guide assumes you have the following basic background:</p>
 <br>
@@ -56,14 +56,14 @@
 <br>
 </div>
 
-<div class="javascipt">
+<div id="javascipt">
 <h1>JavaScript and Java</h1>
 <p>JavaScript and Java are similar in some ways but fundamentally different in some others. The JavaScript language resembles Java but does not have Java's static typing and strong type checking. JavaScript follows most Java expression syntax, naming conventions and basic control-flow constructs which was the reason why it was renamed from LiveScript to JavaScript.</p>
 <br>
 <p>JavaScript is a very free-form language compared to Java. You do not have to declare all variables, classes, and methods. You do not have to be concerned with whether methods are public, private, or protected, and you do not have to implement interfaces. Variables, parameters, and function return types are not explicitly typed.</p>
 </div>
 
-<div class="helloworld">
+<div id="helloworld">
     <h1>Hello world</h1>
     <p>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:</p>
     <br>
@@ -76,7 +76,7 @@
 </div>
 
 
-<div class="variables">
+<div id="variables">
     <h1>Variables</h1>
     <p>You use variables as symbolic names for values in your application. The names of variables, called identifiers, conform to certain rules.</p>
     <br>
@@ -86,7 +86,7 @@
 </div>
 
 
-<div class="declaringvariables">
+<div id="declaringvariables">
     <h1>Declaring variables</h1>
 <p>You can declare a variable in three ways:</p>
 <br>
@@ -115,7 +115,7 @@
 </div>
 
 
-<div class="variablescope">
+<div id="variablescope">
 <h1>Variable scope</h1>
 <p>When you declare a variable outside of any function, it is called a global variable, because it is available to any other code in the current document. When you declare a variable within a function, it is called a local variable, because it is available only within that function.</p>
 <br>
@@ -133,7 +133,7 @@
 </div>
 </div>
 
-<div class="globalvariables">
+<div id="globalvariables">
 <h1>Global variables</h1>
 <p>Global variables are in fact properties of the global object. In web pages the global object is window, so you can set and access global variables using the window.variable syntax.</p>
 <br>
@@ -141,7 +141,7 @@
 </div>
 
 
- <div class="constant">
+ <div id="constant">
 <h1>Constants</h1>
 <p>You can create a read-only, named constant with the const keyword. The syntax of a constant identifier is the same as for a variable identifier: it must start with a letter, underscore or dollar sign and can contain alphabetic, numeric, or underscore characters.</p>
 <br>
@@ -170,7 +170,7 @@
 </div>
 
 
- <div class="datatypes">
+ <div id="datatypes">
 <h1>Data types</h1>
 <p>The latest ECMAScript standard defines seven data types:</p>
 <br>
@@ -189,7 +189,7 @@
 </div>
 
 
-<div class="ifelsestatement">
+<div id="ifelsestatement">
 <h1>if...else statement</h1>
 <p>Use the if statement to execute a statement if a logical condition is true. Use the optional else clause to execute a statement if the condition is false. An if statement looks as follows:</p>
 <br>
@@ -229,7 +229,7 @@
 </div>
 
 
-<div class="whilestatement">
+<div id="whilestatement">
 <h1>while statement</h1>
 <p>A while statement executes its statements as long as a specified condition evaluates to true. A while statement looks as follows:</p>
 <br>
@@ -263,7 +263,7 @@
 </div>
 
 
-<div class="functiondeclaration">
+<div id="functiondeclaration">
 <h1>Function declarations</h1>
 <p>A function definition (also called a function declaration, or function statement) consists of the function keyword, followed by:</p>
 <br>
@@ -289,7 +289,7 @@
 </div>
 
 
-<div class="reference">
+<div id="reference">
 <h1>Reference</h1>
 <ul>
     <li>All the documentation in this page is taken from MDN</li>
