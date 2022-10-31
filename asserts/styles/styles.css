@@ -1,31 +1,31 @@
 #navbar {
-    color: black;
-    border-right: 2px solid black;
-    height: 100%;
-    position: fixed;
-    width: auto;
+  color: black;
+  border-right: 2px solid black;
+  height: 100%;
+  position: fixed;
+  width: auto;
 
 }
 
 #navbar h1 {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: medium;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: medium;
 }
 
 #navbar p {
-    border-top: 1px solid black;
-    font-size: auto;
-    padding-bottom: 0;
+  border-top: 1px solid black;
+  font-size: auto;
+  padding-bottom: 0;
 }
 
 #main {
-    padding-left: 15rem;
-    font-size: medium;
+  padding-left: 15rem;
+  font-size: medium;
 }
 
 .comments {
-    background-color: bisque;
-    padding-left: 7px;
-    margin-left: 20px;
+  background-color: bisque;
+  padding-left: 7px;
+  margin-left: 20px;
 }
